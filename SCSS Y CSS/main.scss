@@ -1,0 +1,71 @@
+@import "encabezado";
+@import "base";
+@import "elclub";
+@import "asociate";
+@import "plantilla";
+@import "contacto";
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    .gridcontainer{
+        display: flex;
+        flex-direction: column;      
+    }
+
+    .elclub{
+        display: flex;
+        flex-direction: column;
+    }
+    .plantilla{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .encabezado{
+        margin-left: 60px;
+        margin-top: 25px;
+    }
+}
+    
+@media screen and (min-width: 480px) and (max-width: 780px) {
+    .gridcontainer{
+        display: flex;
+        flex-direction: column;      
+    }
+    .elclub{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .plantilla{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .encabezado{
+        margin-left: 60px;
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    .gridcontainer{
+        display: flex;
+        flex-direction: column;      
+    }
+    .elclub{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .plantilla{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .encabezado{
+        margin-left: 60px;
+        margin-top: 25px;
+    }
+}

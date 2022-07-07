@@ -1,0 +1,102 @@
+.elclub{
+    display: grid;
+    grid-template-areas: "primeraimagen primerareseña"
+    "segundaimagen segundareseña"
+    "terceraimagen tercerareseña"
+    "cuartaimagen cuartareseña"
+    "quintaimagen quintareseña"
+    "sextaimagen sextareseña";
+    padding-left: 10px;
+    padding-top: 10px;    
+
+.primeraimagen{
+    grid-area: primeraimagen;
+    padding-right: 10px;
+}
+
+.primerareseña{
+    grid-area: primerareseña;
+   padding-left: 10px;
+   padding-top: 10px;
+}
+
+.segundaimagen{
+    grid-area: segundaimagen;
+    padding-right: 10px;
+    padding-top: 20px;    
+}
+
+.segundareseña{
+    grid-area: segundareseña;
+    padding-left: 10px;
+   padding-top: 20px;
+}
+
+.terceraimagen{
+    grid-area: terceraimagen;
+    padding-right: 10px;
+    padding-top: 20px; 
+    
+}
+
+.tercerareseña{
+    grid-area: tercerareseña;
+    padding-left: 10px;
+    padding-top: 200px;
+    align-items: center;
+}
+
+.cuartaimagen{
+    grid-area: cuartaimagen;
+    padding-right: 10px;
+    padding-top: 20px; 
+    
+}
+
+.cuartareseña{
+    grid-area: cuartareseña;
+    padding-left: 10px;
+    padding-top: 200px;
+    align-items: center;
+}
+
+.quintaimagen{
+    grid-area: quintaimagen;
+    padding-right: 10px;
+    padding-top: 20px;
+    
+}
+
+.quintareseña{
+    grid-area: quintareseña;
+    padding-left: 10px;
+    padding-top: 100px;
+    align-items: center;
+}
+
+.sextaimagen{
+    grid-area: sextaimagen;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+.sextareseña{
+    grid-area: sextareseña;
+    padding-left: 10px;
+    padding-top: 100px;
+    align-items: center;
+}
+
+.imageneselclub{
+    width: 100%;
+    height: 100%;
+}
+
+.texto{
+    font: small-caps 100%/200% serif;
+    color: whitesmoke;
+    line-height: 200%;
+    font-style: oblique;
+    text-align: center;
+}
+
+}
