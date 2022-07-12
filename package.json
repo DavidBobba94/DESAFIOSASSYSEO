@@ -1,0 +1,19 @@
+{
+  "name": "terceraentregaproyectofinal",
+  "version": "1.0.0",
+  "description": "Corresponde a la tercera entrega del proyecto final",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidBobba94/DESAFIOSASSYSEO.git"
+  },
+  "author": "David Bobba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidBobba94/DESAFIOSASSYSEO/issues"
+  },
+  "homepage": "https://github.com/DavidBobba94/DESAFIOSASSYSEO#readme"
+}
