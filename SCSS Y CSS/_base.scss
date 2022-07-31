@@ -1,16 +1,20 @@
 body{ 
     background-color: rgb(17, 219, 255);
     
-    .imagenesindex{
-        width: 100%;
-        height: 100%;
-    }
-    
-    .videoyoutube iframe{
-        width: 100%;    
-    }
+   
     
 }
+.imagenesindex{
+    width: 100%;
+    height: 100%;
+}
+
+    
+.videoyoutube iframe{
+    width: 100%;    
+}
+
+
 
 $picker: (
     'color1': #0F67F7,
